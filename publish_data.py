@@ -48,7 +48,7 @@ def follow(name):
 				line=date + ';' + struct['dev'] + ';'+struct['l'] + '\n'
 				fd.write(line)
 				#msgs = [{'topic':"IOT/", 'payload':line}]
-				#publish.multiple(msgs, hostname="10.84.45.126")
+				#publish.multiple(msgs, hostname="XX.XX.XX.XX")
 			if not line:
 				break
 			yield line
