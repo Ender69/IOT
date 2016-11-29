@@ -15,7 +15,7 @@ def on_message(client, userdata, msg):
 		fd.write(msg.payload)
 
 client = mqtt.Client()
-client.connect("10.84.45.126",1883,60)
+client.connect("XX.XX.XX.XX",1883,60)
 
 client.on_connect = on_connect
 client.on_message = on_message
